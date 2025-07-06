@@ -21,11 +21,7 @@ public class OrderController {
 	@Autowired
     private OrderService orderService;
 
-<<<<<<< HEAD
-    
 
-=======
->>>>>>> 953ca450be668458f438aa1f9ed322016a50d35d
     @GetMapping
     public List<OrderDetails> getAllOrders() {
         return orderService.getAllOrders();
