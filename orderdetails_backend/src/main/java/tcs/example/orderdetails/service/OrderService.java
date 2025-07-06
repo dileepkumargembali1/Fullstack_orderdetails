@@ -13,8 +13,11 @@ public class OrderService {
 	@Autowired
     private OrderRepository orderRepository;
 
+<<<<<<< HEAD
     
 
+=======
+>>>>>>> 953ca450be668458f438aa1f9ed322016a50d35d
     public List<OrderDetails> getAllOrders() {
         return orderRepository.findAll();
     }
