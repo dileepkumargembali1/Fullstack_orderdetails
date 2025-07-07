@@ -19,11 +19,11 @@ Open MySQL Command Line or MySQL Workbench
 
 Create Database by running:
 
-CREATE DATABASE orderdb;
+CREATE DATABASE orderdetails;
 
 In the backend project, open application.properties file and update:
 
-spring.datasource.url=jdbc:mysql://localhost:3306/orderdb
+spring.datasource.url=jdbc:mysql://localhost:3306/orderdetails
 spring.datasource.username=root
 spring.datasource.password=YOUR_PASSWORD
 spring.jpa.hibernate.ddl-auto=update
